@@ -1,0 +1,89 @@
+body{
+    background-color: cadetblue;
+
+
+}
+
+.head1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.text1{
+    font-family: "Bitstream Charter";
+    font-size: 15px;
+}
+
+.text2{
+    font-family: "Bitstream Charter";
+     font-size: 15px;
+}
+.about{
+    color: white;
+}
+.about:hover{
+    background-color: white;
+    color: red;
+    border: black 2px solid;
+    border-radius: 35px;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.services:hover{
+    background-color: white;
+    color: red;
+    border: black 2px solid;
+    border-radius: 35px;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact:hover{
+    background-color: white;
+    color: red;
+    border: black 2px solid;
+    border-radius: 35px;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.index:hover{
+    background-color: white;
+    color: red;
+    border: black 2px solid;
+    border-radius: 35px;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

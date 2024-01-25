@@ -1,24 +1,177 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <title>Contact</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Me</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+            background-color: cadetblue;
+
+        }
+
+        .container {
+
+            width: 80%;
+
+            margin: 0 auto;
+
+            padding: 20px;
+
+        }
+
+        h1 {
+
+            color: #333;
+
+            text-align: center;
+
+        }
+
+        label {
+
+            display: block;
+
+            margin-bottom: 5px;
+
+        }
+
+        input[type="text"], textarea {
+
+            width: 100%;
+
+            padding: 10px;
+
+            margin-bottom: 20px;
+
+            box-sizing: border-box;
+
+        }
+
+        button[type="submit"] {
+
+            background-color: #000000;
+
+            color: white;
+
+            padding: 10px 20px;
+
+            border: none;
+
+            cursor: pointer;
+
+            width: 100%;
+
+        }
+
+        button[type="submit"]:hover {
+
+            background-color: #ffffff;
+            color: cadetblue;
+
+        }
+.about:hover{
+    background-color: white;
+    color: red;
+    border: black 2px solid;
+    border-radius: 35px;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.services:hover{
+    background-color: white;
+    color: red;
+    border: black 2px solid;
+    border-radius: 35px;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact:hover{
+    background-color: white;
+    color: red;
+    border: black 2px solid;
+    border-radius: 35px;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.index:hover{
+    background-color: white;
+    color: red;
+    border: black 2px solid;
+    border-radius: 35px;
+    width: 85px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#map{
+    padding: 35px;
+    filter: contrast(10);
+    align-content: center;
+}
+
+    </style>
+
 </head>
+
 <body>
 
-FOR BUSINESS CONTACT ME ON
-<ul>
-    <li>TEL 021545535</li>
-    <li> IG BILL Enterprises</li>
-    <li>FACEBOOk @Breadrin</li>
+    <div class="container">
 
-</ul>
+        <h1>Contact Me</m></h1>
 
-<p><a href="about.html">About</a></p>
-<p><a href="services.html">Services</a></p>
-<p><a href="contact.html">Contact</a></p>
-<p><a href="index.html">Index</a></p>
+        <form action="submit.php" method="post">
+
+            <label for="name">Name:</label>
+
+            <input type="text" id="name" name="name" required placeholder="Input your First and Surname">
+
+
+            <label for="email">Email:</label>
+
+            <input type="text" id="email" name="email" required placeholder="Your Email">
+
+
+            <label for="message">Message:</label>
+
+            <textarea id="message" name="message" rows="4" required placeholder="A small message about what the job you require is?"></textarea>
+
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+    <h1>ALSO CONTACT ME IN MY OFFICE</h1>
+<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.467173909934!2d36.955188!3d-1.491161!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f9f874bf82987%3A0x41b727e148c16842!2sKitengela%20Modern%20Centre!5e0!3m2!1sen!2ske!4v1706187876936!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<p class="about"><a href="about.html">About</a></p>
+
+<p class="services"><a href="services.html">Services</a></p>
+
+<p class="contact"><a href="contact.html">Contact</a></p>
+
+<p class="index"><a href="index.html">Index</a></p>
 
 
 </body>
+
 </html>
